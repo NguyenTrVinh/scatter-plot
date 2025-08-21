@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+  background-color: bisque;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#tooltip {
+  display: inline-block;
+  position: absolute;
+  
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid black;
+  font-size: 12px;
+  pointer-events: none;
+  border-radius: 10px;
+  font-size: 15px;
+  text-align: left;
+  
+}
+
+.legend {
+  display: block
+}
